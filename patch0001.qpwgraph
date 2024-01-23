@@ -1,0 +1,30 @@
+<!DOCTYPE patchbay>
+<patchbay name="patch0001" version="0.5.3">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Aux" port="Aux:output_AUX5"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX5"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox" port="Firefox:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX7"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Aux" port="Aux:output_AUX4"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX4"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox" port="Firefox:output_FL"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX6"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_FR"/>
+   <input node="M-Game Solo Pro" port="M-Game Solo:playback_AUX3"/>
+  </item>
+ </items>
+</patchbay>
+
